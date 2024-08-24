@@ -1,0 +1,256 @@
+/*----CSS Reset---*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    position: relative;
+    margin: auto;
+}
+
+/*----CSS Added for main part ---*/
+
+main {
+    position: relative;
+    max-width: 450px;
+    min-height: 585px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+   margin-top: 30px;
+}
+
+/*----CSS for make our content center ---*/
+
+.container {
+    width: 350px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+/*----CSS for our Heading part ---*/
+
+.heading h1 {
+    font-size: 21px;
+    color: #FF6B82;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cart-items {
+    position: relative;
+    max-width: 350px;
+    min-height: 75px;
+    margin: 20px 0px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.14);
+}
+
+input {
+    position: absolute;
+    left: 85px;
+    top: 30px;
+}
+
+input[type="radio"] {
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #FF6B82;
+    appearance: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+}
+
+/* appearance for checked radiobutton */
+
+input[type="radio"]:checked {
+    background-color: #FF6B82;
+}
+
+.btn {
+    height: 40px;
+    width: 342px;
+    background-color: #FF6B82;
+    color: #ffff;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.btn img {
+    padding-right: 5px;
+}
+
+.cart-list {
+    display: flex;
+    position: relative;
+
+
+}
+label{
+    cursor: pointer;
+    position: absolute;
+}
+
+.cart-items:active {
+    background-color: #FFF9FA;
+    border: 1px solid #FF6B82;
+}
+
+.offer {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    margin-left: 8px;
+    width: 35px;
+    height: 38px;
+    color: #ffffff;
+}
+
+#pair1{
+    position: relative;
+    left: 5px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+    visibility: hidden;
+
+}
+#pair2{
+    position: relative;
+    left: 5px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+    visibility: hidden;
+}
+#pair3{
+    position: relative;
+    left: 5px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+    visibility: hidden;
+
+}
+
+select {
+    width: 72px;
+    height: 25px;
+    margin: 5px 05px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.32);
+    border: none;
+}
+
+.BtnText {
+    margin-left: 2.8rem;
+    font-size: 15px;
+}
+
+.BtnColor {
+    margin-left: 1.5rem;
+    font-size: 15px;
+
+}
+
+.number {
+    font-size: 12px;
+}
+
+.price {
+    position: relative;
+    left: 35px;
+    margin-top: 10px;
+}
+
+.price p {
+    margin: 5px;
+}
+
+
+.populer {
+    width: 100px;
+    color: #FF6B82;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+
+.extra-content {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discount {
+    color: #9f9f9f;
+    text-decoration: line-through;
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    width: 100px;
+}
+
+.Delivery {
+    color: #FF6B82;
+}
+
+.footer {
+    margin: 5px 0;
+    color: #D4D4D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer span {
+    color: #FF6B82;
+    margin-left: 4px;
+
+
+}
+
+#added-data {
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.added-text {
+    position: absolute;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 50px;
+    margin: 2px 4px;
+    display: none;
+}
+
+.checked-img {
+    position: absolute;
+    display: none;
+}
